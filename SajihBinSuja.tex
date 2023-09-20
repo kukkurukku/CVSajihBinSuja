@@ -1,0 +1,263 @@
+%-------------------------
+% thank you to the following person
+% Resume in Latex
+% Author : Jake Gutierrez
+% Based off of: https://github.com/sb2nov/resume
+% License : MIT
+%------------------------
+
+\documentclass[letterpaper,11pt]{article}
+
+\usepackage{geometry}
+\geometry{
+    left=0.75in,
+    right=0.75in,
+    top=0.75in,
+    bottom=0.75in,
+}
+\usepackage{latexsym}
+\usepackage{titlesec}
+\usepackage{marvosym}
+\usepackage[usenames,dvipsnames]{color}
+\usepackage{enumitem}
+\usepackage[hidelinks]{hyperref}
+\usepackage{fancyhdr}
+\usepackage[english]{babel}
+\usepackage{tabularx}
+\usepackage{fontawesome5}
+\usepackage{multicol}
+\setlength{\multicolsep}{-3.0pt}
+\setlength{\columnsep}{-1pt}
+\input{glyphtounicode}
+
+%----------FONT OPTIONS----------
+% You can choose your preferred font here.
+
+% sans-serif
+% \usepackage[sfdefault]{FiraSans}
+% \usepackage[sfdefault]{roboto}
+% \usepackage[sfdefault]{noto-sans}
+% \usepackage[default]{sourcesanspro}
+
+% serif
+% \usepackage{CormorantGaramond}
+% \usepackage{charter}
+
+\pagestyle{fancy}
+\fancyhf{}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+
+\urlstyle{same}
+\raggedbottom
+\raggedright
+\setlength{\tabcolsep}{0in}
+
+% Sections formatting
+\titleformat{\section}{
+\vspace{-4pt}\scshape\raggedright\large\bfseries}{}{0em}{}[\color{black}\titlerule \vspace{-5pt}]
+
+% Ensure that generated PDF is machine-readable/ATS parsable
+\pdfgentounicode=1
+
+%-------------------------
+% Custom commands
+\newcommand{\resumeItem}[1]{
+  \item\small{
+    {#1 \vspace{-2pt}}
+  }
+}
+
+\newcommand{\classesList}[4]{
+    \item\small{
+        {#1 #2 #3 #4 \vspace{-2pt}}
+  }
+}
+
+\newcommand{\resumeSubheading}[4]{
+  \vspace{-2pt}\item
+    \begin{tabular*}{1.0\textwidth}[t]{l@{\extracolsep{\fill}}r}
+      \textbf{#1} & \textbf{\small #2} \\
+      \textit{\small#3} & \textit{\small #4} \\
+    \end{tabular*}\vspace{-5pt}
+}
+
+\newcommand{\resumeSubSubheading}[2]{
+    \item
+    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+      \textit{\small#1} & \textit{\small #2} \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeProjectHeading}[2]{
+    \item
+    \begin{tabular*}{1.001\textwidth}{l@{\extracolsep{\fill}}r}
+      \small#1 & \textbf{\small #2}\\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeSubItem}[1]{\resumeItem{#1}\vspace{-4pt}}
+
+\renewcommand\labelitemi{$\vcenter{\hbox{\tiny$\bullet$}}$}
+\renewcommand\labelitemii{$\vcenter{\hbox{\tiny$\bullet$}}$}
+
+\newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=0.0in, label={}]}
+\newcommand{\resumeSubHeadingListEnd}{\end{itemize}}
+\newcommand{\resumeItemListStart}{\begin{itemize}}
+\newcommand{\resumeItemListEnd}{\end{itemize}\vspace{-5pt}}
+
+%-------------------------------------------
+%%%%%%  RESUME STARTS HERE  %%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\begin{document}
+
+\begin{center}
+    {\Huge \scshape Sajih Bin Suja} \\ \vspace{1pt}
+    25/D, Shukrabad, Dhaka-1207, Bangladesh \\ \vspace{1pt}
+    \small \textbar\ \href{mailto:sajih.binsuja5@gmail.com}{sajih.binsuja5@gmail.com} \hfill \textbar\ \href{https://linkedin.com/in/sajih538/}{linkedin.com/in/saih538} \hfill \textbar\ \href{https://github.com/kukkurukku}{github.com/kukkurukku}
+    \vspace{-8pt}
+\end{center}
+
+%------RESEARCH INTERESTS-------
+\section{Research Interests}
+{Fluid Mechanics, CFD, Multiphase Flows, Porous Media, Thermal Management}
+
+%-----------EXPERIENCE-----------
+\section{Professional Experience}
+\resumeSubHeadingListStart
+\resumeSubheading
+{Walton Hi-Tech Industries PLC.}{August 2023 -- Present}
+{Simulation Engineer -- Department of Research \& Innovation -- Residential Air Conditioner}{Gazipur, Bangladesh}
+\resumeItemListStart
+\resumeItem{Optimization and engineering design of centrifugal blowers and axial exhaust fans.}
+\resumeItem{Conduct computational and performance analyses of indoor and outdoor units, augmented by reliability and transportation testing to ensure optimal air conditioner functionality.}
+\resumeItem{CAD-based design, prototyping and fitting assessments of air-conditioner components. }
+\resumeItemListEnd
+\resumeSubHeadingListEnd
+\vspace{-16pt}
+%-----------EXPERIENCE-----------
+\section{Research Experience}
+\resumeSubHeadingListStart
+\resumeSubheading
+{Computational Fluid Dynamics Lab, KUET}{2020 -- 2023}
+{Research Assistant}{Khulna, Bangladesh}
+\resumeItemListStart
+\resumeItem{Numerical analysis on porous metal foam for thermal management of high heat flux systems.}
+\resumeItem{Investigating swirling jets through numerical studies.}
+\resumeItem{Researched impact of high heat flux and thermal management of electrical components.}
+\resumeItem{Numerical computations on non-premixed methane-oxygen jet for metal melting.}
+\resumeItemListEnd
+\resumeSubHeadingListEnd
+\vspace{-16pt}
+
+\section{Publications}
+\begin{itemize}[leftmargin=0in, label={}]
+{\item{\textbf{Journal Publications}}}
+\resumeItemListStart
+\resumeItem{\textbf{Suja, S.B.}, Pranto, M.R.I. and Ahmed, Z.U., "Swirling Jet Impingements for Thermal Management of High Concentrator Solar Cells Using Nanofluids." 
+\textit{International Journal of Thermofluids}, Volume 19C (2023), 100387.}
+ISSN 2666-2027. DOI: \url{https://doi.org/10.1016/j.ijft.2023.100387}.
+\resumeItemListEnd
+\vspace{-2pt}
+
+{\item{\textbf{Conference Proceedings}}}
+\resumeItemListStart
+\resumeItem{\textbf{Suja, S.B.}, Pranto, M.R.I. and Ahmed, Z.U., "Numerical Analysis of Swirling Jet Impingements for Thermal Management of HCPV using Nanofluids." 
+In \textit{ICMIEE 2022: International Conference of Mechanical, Industrial \& Energy Engineering}, Khulna, 22-24 December.}
+\resumeItem{Alam, S.I., \textbf{Suja, S.B.}, and Islam, M.S., "Influence of Venturi on Heat Transfer Characteristics of Nanofluids Flowing Across Pipe." 
+In \textit{ICMERE 2021: International Conference of Mechanical Engineering and Renewable Energy}, Chittagong, 12-14 December.}
+\resumeItem{\textbf{Suja, S.B.}, Pranto, M.R.I., Turna, R.N. and Ahmed, Z.U., "Conjugate Heat Transfer Analysis of Different CPU Cooling Processes Using Computational Fluid Dynamics." 
+In \textit{ICMIEE 2020: International Conference of Mechanical, Industrial \& Energy Engineering}, Khulna, 19-21 December.}
+\resumeItemListEnd
+\end{itemize}
+
+\section{Academic Credentials}
+\resumeSubHeadingListStart
+\resumeSubheading
+{Khulna University of Engineering \& Technology}{2017 -- 2022}
+{Bachelor of Science in Mechanical Engineering}{Khulna, Bangladesh}
+\begin{itemize}[leftmargin=0in, label={}]
+\small{\item{
+\textbf{CGPA}{-- 3.13/4.00} \\
+}}
+\end{itemize}
+\resumeSubHeadingListEnd
+
+\section{Standardized Tests}
+\begin{itemize}[leftmargin=0in, label={}]
+{\item{
+\textbf{Graduate Record Examination (GRE)} \\Total Score – 324/340, Quantitative Reasoning – 170/170, Verbal Reasoning – 154/170, Analytical Writing Assessment – 4.0/6.0.\\
+Date Taken: November 3rd, 2022
+}}
+{\item{
+{\textbf{International English Language Testing System (IELTS)}\\
+Overall Band Score – 8.0, Speaking – 8.0, Reading – 9.0, Listening – 9.0, Writing – 6.5.\\
+Date Taken: November 3rd, 2022}}}
+\end{itemize}
+
+\section{Technical Skills}
+\begin{itemize}[leftmargin=0in, label={}]
+{\item{
+\textbf{CAD}{: SOLIDWORKS, Fusion 360} \\
+\textbf{CAE}{: ANSYS FLUENT, ANSYS CFX, Star-CCM+, OpenFOAM, SIMULIA Abaqus, ANSYS Mechanical, LS-Dyna} \\
+\textbf{Languages}{: Python, MATLAB, C} \\
+\textbf{Graphics and Rendering}{: KeyShot, Illustrator, Photoshop, Blender 2.9} \\
+}}
+\end{itemize}
+\vspace{-16pt}
+
+\section{Certifications}
+\begin{itemize}[leftmargin=0.15in]
+\item {\textbf{Certified SolidWorks Associate (CSWA)}} – Issued by Dassault Systèmes.
+\item \textbf{Online Courses}
+\begin{itemize}
+\item ENGR2000X: A Hands-on Introduction to Engineering Simulations – Cornell University (edX).
+\item Excel Skills for Business – Macquarie University (Coursera).
+\item Python for Everybody – University of Michigan (Coursera).
+\item MATLAB Programming for Engineers and Scientists – Vanderbilt University (Coursera).
+\end{itemize}
+\end{itemize}
+
+\section{Technical Presentation}
+\begin{itemize}
+\item Pranto, M. R. I., \textbf{Suja, S. B.}, “Smart and Eco-friendly E-waste recycling system”, Mechanical Festival Poster Presentation, Department of Mechanical Engineering, Khulna University of Engineering \& Technology, Khulna, September 2019.
+\end{itemize}
+
+\section{Awards}
+\begin{itemize}
+\item Finalist – Aer-O-Vacx Segment – Cognizance at Indian Institute of Technology (IIT), Roorkee, 2021.
+\item Third Place – Poster Presentation – Mechanical Festival at Department of Mechanical Engineering, KUET, 2019.
+\item Runners Up - KUET Inter Department Soccer, 2017-18 Season.
+\end{itemize}
+
+%-----------INVOLVEMENT---------------
+\section{Extracurricular Activities}
+\begin{itemize}
+\item Organized workshops on Computational Fluid Dynamics and "Speak Out For Engineering – SOFE, Khulna Regional Heat" as Assistant General Secretary of IMechE KUET Student Chapter.
+\item Led a team of four as Executive (Graphics \& Content) for Ignition 2019, a national mechanical festival by KUET's Mechanical Engineering Department.
+\item Manager (Student) of KUET Mechanical Department Soccer team.
+\end{itemize}
+
+\section{References}
+\begin{minipage}[t]{0.45\textwidth}
+\textbf{Dr. Zahir Uddin Ahmed} \\
+Professor \\
+Department of Mechanical Engineering, KUET \\
+E-mail: \href{mailto:zuahmed@me.kuet.ac.bd}{zuahmed@me.kuet.ac.bd}\\
+\end{minipage}
+\hfill
+\begin{minipage}[t]{0.45\textwidth}
+\textbf{Dr. Md. Ashraful Islam} \\
+Professor \\
+Department of Mechanical Engineering, KUET \\
+E-mail: \href{mailto:md.islam@me.kuet.ac.bd}{md.islam@me.kuet.ac.bd}
+\end{minipage}
+
+\begin{minipage}[t]{0.45\textwidth}
+\textbf{Dr. Mohammad Ilias Inam} \\
+Professor \\
+Department of Mechanical Engineering, KUET \\
+E-mail: \href{mailto:iliasinam@me.kuet.ac.bd}{iliasinam@me.kuet.ac.bd}
+\end{minipage}
+
+\end{document}
